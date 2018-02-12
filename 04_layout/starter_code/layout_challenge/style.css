@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header, footer {
+	background: gray;
+	height: 100px;
+	width: 98%;
+	margin: 10px;
+}
+
+.box {
+	background: black;
+	height: 300px;
+	width: 60%;
+	float: left;
+	margin: 10px;
+}
+
+article {
+	background: red;
+	height: 300px;
+	width: 36%;
+	float: left;
+	margin: 10px;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}

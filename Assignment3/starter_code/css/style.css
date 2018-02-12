@@ -1,0 +1,64 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+	background: #f0efef;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.Container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+header {
+	background: #033048;
+	padding: 25px 0;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+header > .Container {
+	display: flex;
+}
+
+header nav ul {
+	margin-right: 100px;
+	margin-left: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 21px;
+ } 
+
+header nav ul li a {
+	color: #f9e42e;
+	font-size: 24px;
+}
+
+header .Relaxr {
+	color: white;
+	font-size: 48px;
+	font-weight: 800;
+	display: inline-block;
+	margin-right: 20px;
+	padding-top: 10px;
+}	

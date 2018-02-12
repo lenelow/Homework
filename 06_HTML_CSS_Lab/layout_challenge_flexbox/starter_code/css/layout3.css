@@ -1,0 +1,37 @@
+
+.exerciseHeader, .exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseHeader, .exerciseFooter {
+	height: 100px;
+}
+
+.exerciseMainFeatures {
+	display: flex;
+
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature {
+	flex: 1;
+	margin: 0 0 10px 10px;
+	height: 300px;
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature:first-child {
+	margin-left: 0;
+}
+
+.exerciseAdditionalFeatures {
+	display: flex;
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+	flex: 1;
+	margin: 0 0 0 10px;
+	height: 100px;
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
+	margin-left: 0;
+}
