@@ -1,0 +1,421 @@
+
+* {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/*QUESTION: a lot goes wrong when I get rid of .alignright and .alignleft. Why?*/
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+body {
+  color: #033048;
+  font-size: 24px;
+  line-height: 1.4;
+  background: #c6dbed;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Center container */
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Arima Madurai";
+  color: #fff;
+}
+
+header {
+  background: #65808e;
+  padding: 25px 0 15px 0;
+  overflow: hidden;
+  display: block;
+}
+
+header .logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+  margin-right: 70px;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 0 0 20px;
+  font-size: 20px;
+}
+
+header nav ul li a {
+  color: #1b3e3b;
+  border-bottom: 1px solid #1b3e3b;
+}
+
+header nav .line {
+  width: 3em;
+  height: .3em;
+  background: #1b3e3b;
+  border-radius: 1em;
+  margin-top: .25em;
+}
+
+header nav .line:first-of-type{
+  margin-top:.7em;
+}
+
+header nav li:first-child{
+  float:right;
+  display: none;
+  cursor: pointer;
+}
+
+.placeholderImage {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.intro {
+  text-align: center;
+  font-style: italic;
+  margin: 30px 80px 50px 80px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.missionStatement {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 200px 0 200px;
+  color: rgb(108,114,117);
+}
+
+.apptForm{
+  height: 500px;
+}
+
+#benefits {
+  padding: 100px 0 80px;
+}
+
+h3 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+#benefits p, #benefits ul {
+  width: 600px;
+}
+
+#benefits ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+}
+
+#testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 70px 0 70px;
+  color: #fff;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
+
+#main {
+  margin-top: 80px;
+}
+
+#posts {
+  width: 73%;
+  display: inline-block;
+  margin-right: 1.95%;
+  vertical-align: top;
+}
+
+#sidebar {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.post {
+  border-bottom: 1px solid #043049;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.post h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.post h2 a {
+  color: #043049;
+}
+
+.post img {
+  margin-bottom: 30px;
+}
+
+.post p {
+  font-size: 20px;
+  line-height: 1.4;
+  color: rgb(108,114,117);
+}
+
+.readmore {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.readmore a {
+  color: #043049;
+  font-weight: 600;
+}
+
+.services {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  color: #043049;
+}
+
+.about {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #043049;
+}
+
+#sidebar ul {
+  margin-bottom: 40px;
+}
+
+#sidebar ul li a {
+  color: #043049;
+  font-size: 24px;
+}
+
+#sidebar p {
+  font-size: 22px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+#sidebar p a {
+  color: #043049;
+  font-weight: 600;
+}
+
+#bottom-cta {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  background: #65808e;
+  padding: 50px 0 30px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .logo {
+    font-size: 36px;
+  }
+
+  header nav {
+    width: 100%;
+    margin: 0;
+  }
+
+  header nav ul li{
+    float: none;
+    display: block;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  header nav ul li:first-child{
+    display:block;
+    position: absolute;
+    top:.6em;
+    right:.75em;
+  }
+
+  header nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+
+  header nav ul{
+    height:0;
+    transition:height 1s;
+    overflow: hidden;
+  }
+
+  header nav ul.slideDown {
+    height: 10em;
+  }
+
+  #hero {
+    height: auto;
+    padding: 30px 0 50px;
+  }
+
+  #hero h2 {
+    font-size: 28px;
+    margin: 40px 0 60px;
+  }
+
+  #benefits {
+    padding: 30px 0;
+  }
+
+  #benefits p, #benefits ul {
+    width: 82%;
+    margin: 0 auto 20px;
+  }
+
+  blockquote {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  #main {
+    margin-top: 25px;
+  }
+
+  footer ul li {
+    margin-bottom: 30px;
+  }
+
+  #posts, #sidebar {
+    margin: 0 auto;
+    width: 95%;
+    display: block;
+  }
+
+  .post h2 {
+    font-size: 24px;
+  }
+
+  .post p {
+    font-size: 18px;
+  }
+
+  .post p:first-of-type:first-letter {
+    float: none;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0;
+    font-weight: 300;
+  }
+
+  .post img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #sidebar h3 {
+    font-size: 24px;
+  }
+
+  #sidebar ul li a, #sidebar p {
+    font-size: 18px;
+  }
+  
+  #sidebar img {
+    display: none;
+  }
+}
+
+
+
+

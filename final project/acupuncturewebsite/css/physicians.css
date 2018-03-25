@@ -1,0 +1,150 @@
+
+* {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+body {
+  color: #033048;
+  font-size: 24px;
+  line-height: 1.4;
+  background: #c6dbed;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Center container */
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Arima Madurai";
+  color: #fff;
+}
+
+header {
+  background: #65808e;
+  padding: 25px 0 15px 0;
+  overflow: hidden;
+  display: block;
+}
+
+header .logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+  margin-right: 70px;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 0 0 20px;
+  font-size: 20px;
+}
+
+header nav ul li a {
+  color: #1b3e3b;
+  border-bottom: 1px solid #1b3e3b;
+}
+
+header nav .line {
+  width: 3em;
+  height: .3em;
+  background: #1b3e3b;
+  border-radius: 1em;
+  margin-top: .25em;
+}
+
+header nav .line:first-of-type{
+  margin-top:.7em;
+}
+
+header nav li:first-child{
+  float:right;
+  display: none;
+  cursor: pointer;
+}
+
+.ourDoctors {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.row {
+  margin: 25px 30px 0 0;
+  text-align: center;
+}
+
+.images {
+  display: block;
+}
+
+#bottom-cta {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  background: #65808e;
+  padding: 50px 0 30px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+
+}
+
+
+
+
