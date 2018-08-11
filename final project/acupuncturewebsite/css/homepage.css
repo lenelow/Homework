@@ -35,9 +35,9 @@ body {
   color: #033048;
   font-size: 24px;
   line-height: 1.4;
-  background: #c6dbed;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  background-color: white;
 }
 
 a {
@@ -82,8 +82,8 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #1b3e3b;
-  border-bottom: 1px solid #1b3e3b;
+  color: #D1D2D4;
+  border-bottom: 1px solid #D1D2D4;
 }
 
 header nav .line {
@@ -104,18 +104,23 @@ header nav li:first-child{
   cursor: pointer;
 }
 
-.placeholderImage {
+.image {
   text-align: center;
+}
+
+img {
   margin-top: 15px;
+  width: 499px;
+  height: 333px;
 }
 
 .intro {
   text-align: center;
   font-style: italic;
-  margin: 30px 80px 50px 80px;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 1.2;
+  margin: 20px 100px 50px 100px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.3;
 }
 
 h2 {
@@ -131,8 +136,12 @@ h2 {
   color: rgb(108,114,117);
 }
 
-.apptForm{
-  height: 500px;
+#apptForm {
+  padding-top: 25px;
+  margin: 0 auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  width: 100%;
 }
 
 #benefits {
@@ -177,7 +186,8 @@ blockquote span {
 }
 
 #main {
-  margin-top: 80px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 #posts {
@@ -191,6 +201,7 @@ blockquote span {
   width: 25%;
   display: inline-block;
   vertical-align: top;
+  margin: 0 auto;
 }
 
 .post {
@@ -233,8 +244,8 @@ blockquote span {
 .services {
   font-size: 32px;
   font-weight: 800;
-  margin-bottom: 15px;
-  margin-top: 50px;
+  margin-bottom: 5px;
+  margin-top: 40px;
   color: #043049;
 }
 
@@ -288,6 +299,12 @@ footer p {
   font-size: 14px;
   color: #fff;
   font-weight: 400;
+}
+
+.copyright {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 @media only screen and (max-width: 768px) {
