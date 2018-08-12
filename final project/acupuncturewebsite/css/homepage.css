@@ -72,7 +72,8 @@ header .logo {
 header nav {
   float: right;
   margin-top: 15px;
-  margin-right: 70px;
+  margin-right: 15vw;
+  text-align: center;
 }
 
 header nav ul li {
@@ -119,7 +120,7 @@ img {
   font-style: italic;
   margin: 20px 100px 50px 100px;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.3;
 }
 
@@ -132,7 +133,7 @@ h2 {
 .missionStatement {
   font-size: 20px;
   text-align: center;
-  margin: 10px 200px 0 200px;
+  margin: 10px 100px 0 100px;
   color: rgb(108,114,117);
 }
 
@@ -187,9 +188,11 @@ blockquote span {
 
 #main {
   margin-top: 20px;
-  text-align: center;
 }
 
+.bold {
+  font-weight: bold;
+}
 #posts {
   width: 73%;
   display: inline-block;
@@ -198,10 +201,11 @@ blockquote span {
 }
 
 #sidebar {
-  width: 25%;
+  /* width: 90%; */
   display: inline-block;
   vertical-align: top;
   margin: 0 auto;
+  padding: 15px 80px;
 }
 
 .post {
@@ -242,11 +246,12 @@ blockquote span {
 }
 
 .services {
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 800;
   margin-bottom: 5px;
   margin-top: 40px;
   color: #043049;
+  text-align: center;
 }
 
 .about {
@@ -261,9 +266,9 @@ blockquote span {
   margin-bottom: 40px;
 }
 
-#sidebar ul li a {
-  color: #043049;
-  font-size: 24px;
+#sidebar ul li {
+  font-size: 20px;
+  padding: 10px 0;
 }
 
 #sidebar p {
@@ -285,7 +290,7 @@ blockquote span {
 
 footer {
   background: #65808e;
-  padding: 50px 0 30px;
+  padding: 25px 0;
   text-align: center;
 }
 
