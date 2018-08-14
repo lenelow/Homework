@@ -1,0 +1,2 @@
+This is a website for a local acupuncture practice that's opening this month. It was built 
+with HTML and CSS. This experience was very different from building projects for General Assembly. Not having creative agency and turning someone's vision into a real website were new types of challenges. Although code-wise this was not my most challenging or exciting project, learning about some of the other obstacles that come up in this line of work was an invaluable experience.
