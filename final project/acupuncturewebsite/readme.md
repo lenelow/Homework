@@ -1,2 +1,4 @@
 This is a website for a local acupuncture practice that's opening this month. It was built 
 with HTML and CSS. This experience was very different from building projects for General Assembly. Not having creative agency and turning someone's vision into a real website were new types of challenges. Although code-wise this was not my most challenging or exciting project, learning about some of the other obstacles that come up in this line of work was an invaluable experience.
+
+Temporarily, the website--centerforintegrativeacupuncture.com--contains a "dummy" site. I created this site as a placeholder while I add some finishing touches to their actual website, so that clients who have received their business cards will still be able to contact them, find their office, and learn basic information about them while I continue to finish up the actual website. 
