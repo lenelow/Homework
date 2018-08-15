@@ -5,44 +5,23 @@
   box-sizing: border-box; 
 }
 
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
 body {
   color: #033048;
   font-size: 24px;
   line-height: 1.4;
-  background: #c6dbed;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  background-color: white;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-/* Center container */
+header nav ul li a:hover {
+  color: #D1D2D4;
+}
+
 .container {
   width: 100%;
   max-width: 960px;
@@ -70,7 +49,8 @@ header .logo {
 header nav {
   float: right;
   margin-top: 15px;
-  margin-right: 70px;
+  margin-right: 15vw;
+  text-align: center;
 }
 
 header nav ul li {
@@ -80,8 +60,8 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #1b3e3b;
-  border-bottom: 1px solid #1b3e3b;
+  color: #D1D2D4;
+  border-bottom: 1px solid #D1D2D4;
 }
 
 header nav .line {
@@ -102,19 +82,46 @@ header nav li:first-child{
   cursor: pointer;
 }
 
-.ourDoctors {
-  text-align: center;
-  margin-top: 25px;
+.grid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.row {
-  margin: 25px 30px 0 0;
+.amyBio {
+  font-size: 16px;
+  padding-top: 6vh;
+  margin-right: 9vw;
+}
+
+.maryBio {
+  font-size: 16px;
+  padding-top: 5vh;
+  margin-right: 9vw;
+}
+
+.name {
+  font-size: 16px;
   text-align: center;
+  float: right;
+}
+
+.maryName {
+  font-size: 16px;
+  text-align: center;
+  float: right;
+  width: 270px;
+}
+
+.firstDiv {
+  text-align: right;
+  padding-right: 50px;
 }
 
 .images {
   display: block;
 }
+
 
 #bottom-cta {
   background: #f9e42e;
@@ -124,7 +131,7 @@ header nav li:first-child{
 
 footer {
   background: #65808e;
-  padding: 50px 0 30px;
+  padding: 25px 0;
   text-align: center;
 }
 
@@ -140,9 +147,10 @@ footer p {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 768px) {
- 
-
+.copyright {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 
