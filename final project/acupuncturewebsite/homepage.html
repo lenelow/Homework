@@ -20,7 +20,7 @@
 				<h1 class="logo">The Center for Integrative Acupuncture</h1>
 				<nav>
 					<ul>
-						<li><div class="line"></div><div class="line"></div><div class="line"></div></li>
+						<li class="hamburger"><div class="line"></div><div class="line"></div><div class="line"></div></li>
 						<li><a href="homepage.html">Home</a></li>
 						<li><a href="#mission">Our Mission</a></li>
 						<li><a href="physicians.html">Our Physicians</a></li>
@@ -44,7 +44,6 @@
 						<div id="wufoo-z1ymde9l1wq5cp9">
 				Fill out my <a href="https://maryandamy.wufoo.com/forms/z1ymde9l1wq5cp9">online form</a>.
 				</div>
-				<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
 				<script type="text/javascript">var z1ymde9l1wq5cp9;(function(d, t) {
 				var s = d.createElement(t), options = {
 				'userName':'maryandamy',
@@ -60,7 +59,11 @@
 				var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
 				try { z1ymde9l1wq5cp9 = new WufooForm();z1ymde9l1wq5cp9.initialize(options);z1ymde9l1wq5cp9.display(); } catch (e) {}};
 				var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-				})(document, 'script');</script>
+				})(document, 'script');window.addEventListener("resize", function() {
+					if (window.matchMedia("(max-width: 750px)").matches) {
+						notranslate.classList.remove("leftHalf");
+					}
+				});</script>
 				
 				</section>
 
@@ -78,7 +81,7 @@
 			<div class="container">
 			<aside id="sidebar">
 					<h3 class="services">Our Services</h3>
-					<ul>
+					<ul class="biggerList">
 						<li><span class="bold">Integrative consultation:</span> Explore all aspects of your physical, mental, emotional and spiritual health.</li>
 						<li><span class="bold">Acupuncture:</span> We believe that everyone can benefit from acupuncture, whether for energetic enhancement or to treat a multitude of ailments, including chronic pain. 
 								Sessions are offered with or without additional integrative consultation.</li>
@@ -87,6 +90,12 @@
 								Sessions are offered with or without additional integrative consultation.</li>
 						<li><span class="bold">Pain management:</span>
 								We are particularly interested in using Integrative techniques to manage pain, particularly chronic pain. We offer a personalized combination of modalities tailored to your needs. Additionally, we offer group visits for patient education and support.</li>
+					</ul>
+					<ul class="smallerList">
+						<li>Integrative Consultation</li>
+						<li>Acupuncture</li>
+						<li>Hypnosis</li>
+						<li>Pain Management</li>
 					</ul>
 				</aside>
 			</div>

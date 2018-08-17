@@ -10,7 +10,7 @@
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/physicians.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript" src="app.js"></script>
@@ -36,14 +36,14 @@
 			<section class="container">
 				<div class="grid">
 					<div class="firstDiv">
-						<ul>
+						<ul class="images">
 							<li><h1 class="name">Amy Kossoff<br /> MD, Fellow in Integrative Medicine, LAc</h1><img src="images/AmyPicture.png" width="270" height"370" alt="Amy Kossoff"></li>
-							<li><h1 class="maryName">Mary Warfield, MD, LAc</h1><img src="images/MaryPicture.png" width="270" height"370" alt="Mary Warfield"></li>
+							<li><h1 class="maryName">Mary Warfield, MD, LAc</h1><img class="maryPic" src="images/MaryPicture.png" width="270" height"370" alt="Mary Warfield"></li>
 						</ul>
 					</div>
-					<div>
+					<div class="bioDiv">
 						<p class="amyBio">
-							Dr. Amy Kossoff graduated from George Washington School of Medicine in 1983 and has been 
+							<span class="boldName">Dr. Amy Kossoff</span> graduated from George Washington School of Medicine in 1983 and has been 
 							practicing Internal Medicine for the underserved for the past 30 years. In October 2017 
 							she completed a Fellowship in Integrative Medicine through the University of Arizona Center 
 							for Integrative Medicine. She went on to study hypnosis through the American Society of 
@@ -52,7 +52,7 @@
 							Integrative Medical care to underserved populations in Washington, D.C.
 						</p>
 						<p class="maryBio">
-							Mary is a Board Certified physician in Internal Medicine and a licensed Acupuncturist. 
+							<span class="boldName">Dr. Mary Warfield</span> is a Board Certified physician in Internal Medicine and a licensed Acupuncturist. 
 							After graduating from Georgetown Medical School she completed her internship and residency 
 							at the Washington Hospital Center. Her 30+ years of experience in healthcare includes 
 							experience in a variety of medical settings, such as:
