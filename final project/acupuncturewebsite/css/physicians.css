@@ -88,7 +88,6 @@ header nav li:first-child{
 }
 
 .grid {
-  height: 677px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -186,6 +185,82 @@ footer p {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .amyPic, .maryPic {
+    width: 450px;
+  }
+  .amyPic {
+    margin-bottom: 40vh;
+  }
+  .amyBio {
+    font-size: 25px;
+    margin-top: 65px;
+    margin-right: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    line-height: 1.1;
+    margin-left: 13px;
+  }
+
+  .name, .maryName {
+    display: none;
+  }
+
+  .firstDiv {
+    margin-bottom: 60px;
+    margin-top: -70px;
+  }
+
+  .maryName {
+    font-weight: bold;
+    font-size: 25px;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 13.4px;
+  }
+
+  .maryBio {
+    font-size: 25px;
+    line-height: 1.1;
+    margin-right: 0;
+    padding-bottom: 0;
+    margin-bottom: 8vh;
+    margin-top: 5px;
+    margin-left: 13px;
+  }
+  .maryListItem {
+    position: absolute;
+    bottom: 0;
+    margin-top: 0;
+    padding-right: 50px;
+    padding-bottom: 3vh;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    margin-top: 0;
+    width: 100%
+  }
+  .grid {
+    height: 950px;
+  }
+  .images li {
+    margin-top: 10vh;
+  }
+
+  .firstDiv {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .bioDiv {
+    margin-right: 0;
+    width: 103%;
+  }
+}
+
+
 @media only screen and (max-width: 915px) {
   .amyBio {
     margin-right: 3vw;
@@ -250,26 +325,92 @@ footer p {
     width: 150%;
     margin-left: -220px;
   }
-  /* header {
-    height: 120px;
-  } */
 }
-
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 18px;
+@media only screen and (min-width: 768px) 
+and (max-width: 796px) {
+  .amyPic, .maryPic {
+    width: 450px;
+  }
+  .amyPic {
+    margin-bottom: 40vh;
+  }
+  .amyBio {
+    font-size: 45px;
+    margin-top: 65px;
+    margin-right: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    line-height: 1.1;
+    margin-left: 13px;
   }
 
-  .infoLinks li a {
-    font-size: 15px;
-    margin-left: 0;
+  .name, .maryName {
+    display: none;
+  }
+
+  .firstDiv {
+    margin-bottom: 60px;
+    margin-top: -70px;
+  }
+
+  .maryName {
+    font-weight: bold;
+    font-size: 25px;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 13.4px;
+  }
+
+  .maryBio {
+    font-size: 45px;
+    line-height: 1.1;
+    margin-right: 0;
+    padding-bottom: 0;
+    margin-bottom: 8vh;
+    margin-top: 5px;
+    margin-left: 13px;
+  }
+  .maryListItem {
+    position: absolute;
+    bottom: 0;
+    margin-top: 0;
+    padding-right: 50px;
+    padding-bottom: 3vh;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -50vh;
+    width: 100%
+  }
+  .grid {
+    height: 200%;
+  }
+  .images li {
+    margin-top: 10vh;
+  }
+
+  .firstDiv {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 100px;
+  }
+
+  .bioDiv {
+    margin-right: 0;
+    width: 103%;
+  }
+  body {
+    height: 200vh;
   }
   
-  .infoLinks {
-    margin-left: 2vw;
-  }
   header {
     padding: 10px 10px 0 10px;
+  }
+
+  .images li a {
+    width: 450px;
   }
 
   .maryBio {
@@ -362,10 +503,6 @@ footer p {
     font-size: 15px;
   }
 
-  /* header {
-    height: 70px;
-  } */
-
   header .logo {
     font-size: 18px;
   }
@@ -387,13 +524,97 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media (max-width: 420px) {
   .amyBio {
     padding-top: 1vh;
   }
   .bioDiv {
     width: 200%;
     margin-left: -180px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .amyPic, .maryPic {
+    width: 450px;
+  }
+  .amyPic {
+    margin-bottom: 40vh;
+  }
+  .amyBio {
+    font-size: 25px;
+    margin-top: 0;
+    margin-right: 0;
+    padding-top: 10.5vh;
+    line-height: 1;
+    padding-top: 11vh;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 25px;
+    float: none;
+  }
+
+  .bioDiv {
+    margin: 0;
+  }
+
+  .maryName {
+    font-weight: bold;
+    font-size: 25px;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 13.4px;
+  }
+
+  .maryBio {
+    font-size: 25px;
+    line-height: 1;
+    margin-right: 0;
+    padding-bottom: 3vh;
+  }
+}
+
+@media only screen and (min-width: 375px)
+and (max-width: 413px)  {
+  .amyPic, .maryPic {
+    width: 450px;
+  }
+  .amyPic {
+    margin-bottom: 40vh;
+  }
+  .amyBio {
+    font-size: 25px;
+    margin-top: 0;
+    margin-right: 0;
+    padding-top: 10.5vh;
+    line-height: 1;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 25px;
+    float: none;
+  }
+
+  .bioDiv {
+    margin: 0;
+  }
+
+  .maryName {
+    font-weight: bold;
+    font-size: 25px;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 13.4px;
+  }
+
+  .maryBio {
+    font-size: 25px;
+    line-height: 1;
+    margin-right: 0;
+    padding-bottom: 3vh;
   }
 }
 

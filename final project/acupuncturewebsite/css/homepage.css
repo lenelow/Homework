@@ -261,7 +261,7 @@ footer p {
     text-align: center;
   }
 
-  header nav ul{
+  header nav ul {
     height:0;
     -webkit-transition:height 1s;
     -o-transition:height 1s;
