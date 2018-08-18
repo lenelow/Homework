@@ -1,6 +1,5 @@
 
 * {
-    /* -moz-box-sizing: border-box;  */
     -webkit-box-sizing: border-box; 
     box-sizing: border-box; 
   }
@@ -12,12 +11,17 @@
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     background-color: white;
+    margin: 0;
   }
   
+  .infoLinks li {
+    list-style-type: none;
+  }
+
   a {
     text-decoration: none;
   }
-  
+
   .container {
     width: 100%;
     max-width: 960px;
@@ -29,14 +33,14 @@
     font-weight: 800;
     font-family: "Arima Madurai";
     color: #fff;
+    margin: 0 0 0 5vw;
   }
   
   header {
     background: #65808e;
-    padding: 25px 0 15px 0;
+    padding: 25px 0 0 0;
     overflow: hidden;
     display: block;
-    height: 120px;
   }
   
   header .logo {
@@ -45,7 +49,6 @@
   
   header nav {
     float: right;
-    /* margin-top: 15px; */
     margin-right: 15vw;
     text-align: center;
   }
@@ -72,10 +75,6 @@
     border-radius: 1em;
     margin-top: .25em;
   }
-  
-  /* header nav .line:first-of-type{
-    margin-top:.7em;
-  } */
 
   header nav li:first-child{
     float:right;
@@ -137,9 +136,6 @@
     header .logo {
       font-size: 24px;
     }
-    header {
-      height: 60px;
-    }
   }
 
   @media only screen and (max-width: 768px) {
@@ -148,7 +144,6 @@
     }
 
     .infoLinks li a {
-      font-size: 25px;
       margin-left: 10vh;
     }
     
@@ -181,7 +176,7 @@
     }
   
     header nav ul li:first-child{
-      display:block;
+      display: block;
       position: absolute;
       top:.6em;
       right:.75em;
@@ -207,30 +202,6 @@
       height: 12.5em;
     }
   
-    /* #hero {
-      height: auto;
-      padding: 30px 0 50px;
-    } */
-  
-    /* #hero h2 {
-      font-size: 28px;
-      margin: 40px 0 60px;
-    }
-  
-    #benefits {
-      padding: 30px 0;
-    }
-  
-    #benefits p, #benefits ul {
-      width: 82%;
-      margin: 0 auto 20px;
-    }
-  
-    blockquote {
-      font-size: 20px;
-      width: 90%;
-    } */
-  
     #main {
       margin-top: 25px;
     }
@@ -238,45 +209,6 @@
     footer ul li {
       margin-bottom: 30px;
     }
-  
-    /* #posts, #sidebar {
-      margin: 0 auto;
-      width: 95%;
-      display: block;
-    } */
-  
-    /* .post h2 {
-      font-size: 24px;
-    }
-  
-    .post p {
-      font-size: 18px;
-    }
-  
-    .post p:first-of-type:first-letter {
-      float: none;
-      font-size: 18px;
-      line-height: 18px;
-      padding: 0;
-      font-weight: 300;
-    }
-  
-    .post img {
-      width: 100%;
-      margin-bottom: 15px;
-    } */
-  
-    /* #sidebar h3 {
-      font-size: 24px;
-    }
-  
-    #sidebar ul li a, #sidebar p {
-      font-size: 18px;
-    }
-    
-    #sidebar img {
-      display: none;
-    } */
   }
 
   @media only screen and (max-width: 725px) {
@@ -296,11 +228,11 @@
     }
   }
 
-  @media only screen and (max-width: 703px) {
+  /* @media only screen and (max-width: 703px) {
     header .logo {
       font-size: 24px;
     }
-  }
+  } */
 
   @media only screen and (max-width: 568px) {
     .infoLinks li a {
@@ -325,9 +257,9 @@
       font-size: 15px;
     }
   
-    header {
+    /* header {
       height: 70px;
-    }
+    } */
   
     header .logo {
       font-size: 18px;

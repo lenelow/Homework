@@ -32,13 +32,12 @@ header nav ul li a:hover {
   font-weight: 800;
   font-family: "Arima Madurai";
   color: #fff;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0 0 0 5vw;
 }
 
 header {
   background: #65808e;
-  padding: 25px 0 15px 0;
+  padding: 25px 0 0 0;
   overflow: hidden;
   display: block;
   /* height: 120px; */
@@ -260,7 +259,7 @@ footer p {
     margin-left: 2vw;
   }
   header {
-    padding: 10px;
+    padding: 10px 10px 0 10px;
   }
 
   .maryBio {
@@ -327,6 +326,7 @@ footer p {
   footer ul li {
     margin-bottom: 30px;
   }
+}
 
 @media only screen and (max-width: 590px) {
   .bioDiv {

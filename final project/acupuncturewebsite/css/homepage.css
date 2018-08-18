@@ -14,18 +14,13 @@ body {
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
-
-/* header nav ul li a:hover {
-  color: #D1D2D4;
-} */
 
 .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  height: 100vh;
 }
 
 .logo {
@@ -33,16 +28,15 @@ a {
   font-weight: 800;
   font-family: "Arima Madurai";
   color: #fff;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0 0 0 5vw;
 }
 
 header {
   background: #65808e;
-  padding: 25px 0 15px 0;
+  padding: 25px 0 0 0;
   overflow: hidden;
   display: block;
-  height: 120px;
+  /* height: 120px; */
 }
 
 header .logo {
@@ -78,10 +72,6 @@ header nav .line {
   border-radius: 1em;
   margin-top: .25em;
 }
-
-/* header nav .line:first-of-type{
-  margin-top:.7em;
-} */
 
 header nav li:first-child{
   float:right;
@@ -225,9 +215,6 @@ footer p {
   header .logo {
     font-size: 24px;
   }
-  header {
-    height: 60px;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -236,8 +223,7 @@ footer p {
   }
 
   header {
-    padding: 10px;
-    /* height: 100px; 'more information' works prefectly, home page doesn't work (responsive header) */
+    padding: 10px 10px 0 10px;
   }
 
   h3 {
@@ -297,10 +283,6 @@ footer p {
 }
 
 @media only screen and (max-width: 703px) {
-  header .logo {
-    font-size: 24px;
-  }
-
   img {
     width: 250px;
     height: 166px;
@@ -330,11 +312,6 @@ footer p {
     width: 70%;
     font-size: 15px;
   }
-
-  header {
-    height: 70px;
-  }
-
   header .logo {
     font-size: 18px;
   }
@@ -348,13 +325,8 @@ footer p {
     display: block;
     list-style-type: disc;
   }
-
   #sidebar {
     margin-left: 20vw;
-  }
-
-  .container {
-    height: 50vh;
   }
   #main {
     margin-top: 0;
