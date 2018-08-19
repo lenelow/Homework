@@ -6,7 +6,7 @@
   
   body {
     color: #033048;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.4;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -92,12 +92,12 @@
 
   .infoLinks {
       margin-top: 7vh;
-      padding-bottom: 10vh;
-      margin-bottom: 5vh;
+      /* padding-bottom: 10vh; */
+      margin-bottom: 8vh;
   }
 
   .infoLinks li {
-    margin-bottom: 6vh;
+    margin-bottom: 4vh;
   }
 
   footer {
@@ -140,7 +140,11 @@
       font-size: 24px;
     }
   }
-
+  @media only screen and (min-width: 767px) {
+    footer {
+      margin-top: 4vh;
+    }
+  }
   @media only screen and (max-width: 767px) {
     body {
       font-size: 18px;
@@ -222,7 +226,7 @@
     
     .infoLinks {
       margin-left: 2vw;
-      padding-bottom: 17vh;
+      padding-bottom: 20vh;
       margin-top: 6vh;
     }
 
@@ -326,8 +330,12 @@
     }
 
   } 
+/* iphone 6/7/8 */
+  @media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
 
-  @media only screen and (min-width: 375px) {
     footer {
       padding-top: 0;
       padding-bottom: 0;
@@ -387,7 +395,7 @@
     .infoLinks li {
       display: flex;
       flex-wrap: wrap;
-      margin-bottom: 8vh;
+      margin-bottom: 5vh;
     }
 
   } 
