@@ -309,6 +309,86 @@
     }
   }
 
+  /* Galaxy S5*/
+ @media screen 
+ and (min-width: 360px) 
+ and (max-width: 640px) 
+ and (-webkit-device-pixel-ratio: 3) {
+  header nav ul li {
+    font-size: 13px;
+  }
+  header nav ul li:first-child {
+    top: .7em;
+    padding-top: 5px;
+  }
+  header nav ul.slideDown {
+    height: 10em;
+  }
+  header {
+    padding-top: 20px;
+  }
+ }
+/* iphone 5/se */
+ @media only screen 
+and (min-width : 320px) 
+and (max-width : 568px)
+and (-webkit-device-pixel-ratio: 2) {
+  header nav ul li {
+    font-size: 13px;
+  }
+  header nav ul li:first-child {
+    top: .7em;
+    padding-top: 5px;
+  }
+  header nav ul.slideDown {
+    height: 10em;
+  }
+  header {
+    padding-top: 20px;
+  }
+  .infoLinks {
+    margin: 2vh 4vw 0 4vw;
+  }
+}
+/*ipad pro*/
+@media only screen and (min-width: 1024px) 
+and (max-width: 1366px) 
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .infoLinks li a {
+    font-size: 28px;
+  }
+}
+
+/* google pixel xl*/
+@media screen 
+  and (min-width: 411px) 
+  and (max-height: 823px) {
+    header nav ul li {
+      font-size: 13px;
+    }
+    header nav ul li:first-child {
+      top: .7em;
+      padding-top: 5px;
+    }
+    header nav ul.slideDown {
+      height: 10em;
+    }
+    header {
+      padding-top: 20px;
+    }
+  }
+
+  /*iphone X*/
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 812px) 
+and (-webkit-device-pixel-ratio : 3) {
+  header nav ul.slideDown {
+    height: 11em;
+  }
+}
+
   @media only screen and (min-width: 360px) 
   and (max-width: 374px) {
     footer {
@@ -330,6 +410,25 @@
     }
 
   } 
+  /* iphone 5/se */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px)
+and (-webkit-device-pixel-ratio: 2) {
+  header nav ul.slideDown {
+    height: 11em;
+  }
+}
+
+ /* Galaxy S5*/
+ @media screen 
+ and (min-width: 360px) 
+ and (max-width: 640px) 
+ and (-webkit-device-pixel-ratio: 3) {
+  header nav ul.slideDown {
+    height: 11em;
+  }
+ }
 /* iphone 6/7/8 */
   @media only screen 
   and (min-width: 375px) 
@@ -353,6 +452,9 @@
     .infoLinks li {
       display: flex;
       flex-wrap: wrap;
+    }
+    header nav ul.slideDown {
+      height: 11em;
     }
   }
 
