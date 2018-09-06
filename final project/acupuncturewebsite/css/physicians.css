@@ -399,7 +399,7 @@ footer ul li {
 }
 
  /* Galaxy S5*/
- @media screen 
+ @media screen
  and (min-width: 360px) 
  and (max-width: 640px) 
  and (-webkit-device-pixel-ratio: 3) {
@@ -417,11 +417,12 @@ footer ul li {
     padding-top: 0;
     font-size: 15px;
     line-height: 1.1 !important;
+    margin-right: 8vw !important;
   } 
   .bioDiv {
     margin-left: -170px !important;
     height: 100vh;
-    width: 200%;
+    width: 200% !important;
     line-height: 1;
     margin-right: -20px;
   }
@@ -432,6 +433,7 @@ footer ul li {
     margin: 5vh 2vh 1vh 2vh;
     line-height: 1.1 !important;
     margin-bottom: 16vh !important;
+    margin-right: 8vw !important;
   } 
   body, footer {
     padding-right: 0;
@@ -461,7 +463,7 @@ footer ul li {
 
 
 /* iphone 5/se */
-@media only screen 
+@media screen
 and (min-width : 320px) 
 and (max-width : 568px)
 and (-webkit-device-pixel-ratio: 2) {
@@ -578,7 +580,7 @@ and (-webkit-device-pixel-ratio: 2) {
   }
 
 /* iphone 6/7/8 plus */
-@media only screen 
+@media screen 
 and (min-width : 414px) 
 and (max-width : 736px)
 and (-webkit-min-device-pixel-ratio: 3) {
@@ -621,7 +623,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
   }
 }
 /*iphone X*/
-@media only screen 
+@media screen 
     and (min-width : 375px) 
     and (min-height : 812px) 
     and (-webkit-device-pixel-ratio : 3)
@@ -697,7 +699,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
 }
 
 /* iphone 6/7/8 */
-@media only screen 
+@media screen 
   and (min-width: 375px) 
   and (max-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
