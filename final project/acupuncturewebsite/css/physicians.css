@@ -461,7 +461,7 @@ footer ul li {
   }
 }
 
-
+/*IPHONE 5S DOES NOT WORK/*
 /* iphone 5/se */
 @media screen
 and (min-width : 320px) 
@@ -926,6 +926,36 @@ and (-webkit-min-device-pixel-ratio: 1) {
     font-size: 20px;
   }
 } 
+/* according to browserstock.com... */
+/*5 ios 6 DOES NOT WORK*/
+
+/*5S ios 7 DOES NOT WORK*/ 
+
+/*6S ios 8 DOES NOT WORK*/
+
+/*6S plus ios 8 DOES NOT WORK*/
+
+/*6 ios 8 DOES NOT WORK*/
+
+/*7 ios 10 WORKS*/
+
+/*7 plus ios 10.3 WORKS*/
+
+/* 6 ios 9 WORKS*/
+
+/*6S ios 11 WORKS*/
+
+/*6S plus ios 11 WORKS*/
+
+/*SE ios 11 DOES NOT WORK*/
+
+/*8 ios 11 WORKS*/
+
+/*8 plus ios 11 WORKS*/
+
+/*X ios 11 DOES NOT WORK (works in chrome dev tools)*/
+
+/*ipad not working (works in chrome dev tools)*/
 
 /* ipad pro */
 @media only screen and (min-width: 1024px) 
