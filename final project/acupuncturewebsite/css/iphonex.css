@@ -1,0 +1,17 @@
+footer {
+    margin-top: none;
+  }
+.col-sm-5 {
+    border: none;
+    height: 82vh;
+}
+h1 {
+    margin-top: 0;
+}
+.name, .maryName {
+    padding-top: 10px;
+    font-size: 20px;
+}
+.mName {
+    height: 85vh;
+}

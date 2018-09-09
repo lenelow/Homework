@@ -144,8 +144,8 @@ header nav li:first-child{
 
 .maryBio {
   text-align: left;
-  /* font-size: 16px;
-  padding-bottom: 2vh;
+  font-size: 16px;
+  /*padding-bottom: 2vh;
   margin-right: 8vw;   */
   /* position: absolute; */
   /* bottom: 0;
@@ -159,7 +159,23 @@ header nav li:first-child{
 .maryName {
   font-size: 16px;
   text-align: center;
-}/*
+}
+
+.boldName {
+  font-weight: bold;
+}
+
+.col-sm-5 {
+  /* border: .5px solid black; */
+  border-top: none;
+  /* height: 95vh; */
+  padding: 10px;
+}
+
+.amyName {
+  border-right: none;
+}
+/*
 
 .maryName {
   font-size: 16px;
@@ -187,7 +203,8 @@ header nav li:first-child{
 }*/
 
 footer {
-  background: black;
+  background: #65808e;
+  padding: 10px 0;
   /* height: 100%;
   bottom: 0;
   padding: 15px 0;
@@ -208,9 +225,10 @@ footer ul li {
 
 footer h1 {
   font-size: 14px;
-  color: black;
-  background-color: blue;
+  color: white;
+  background: #65808e;
   font-weight: 400;
+  text-align: center;
 } 
 /*
 .copyright {
@@ -226,22 +244,38 @@ footer h1 {
   .container {
     margin-right: 150px;
   }
+}*/
+
+.row {
+  max-width: 100%;
+  margin-left: 0;
+}
+.col-sm-5 {
+  border-bottom: none;
 }
 
-@media (min-width: 1024px) {
-  
+/* @media (max-width: 1075px) {
+  .col-sm-5 {
+    height: 101vh;
+  }
+} */
+@media (max-width: 991px) {
+  header nav {
+    margin-right: 0;
+  }
 }
+
 
 @media (max-width: 767px) {
-body {
+/* body {
   font-size: 18px;
-}
+} */
 
 header {
   padding: 10px 10px 0 10px;
 }
 
-.maryBio {
+/* .maryBio {
   margin-bottom: 0;
   padding-bottom: 5vh;
 }
@@ -249,14 +283,15 @@ header {
 .bioDiv {
   height: 100vh;
   width: 150%
-}
+} */
 
 h3 {
   font-size: 30px;
 }
 
 .logo {
-  font-size: 36px;
+  font-size: 28px;
+  margin: 0;
 }
 
 header nav {
@@ -295,13 +330,13 @@ header nav ul {
 }
 
 header nav ul.slideDown {
-  height: 13em;
+  height: 16.1em;
 }
 
-footer ul li {
+/* footer ul li {
   margin-bottom: 30px;
-}
-}
+} */
+}/*
   
 
 
@@ -389,20 +424,30 @@ footer ul li {
     margin: 0 6vw;
   }
 }
-
+*/
 @media (max-width: 590px) {
-  .bioDiv {
+  /* .bioDiv {
     line-height: 1 !important;
     width: 200%;
     margin-left: -255px;
     margin-right: 20vw;
     }
-  
+   */
   header .logo {
     font-size: 20px;
   }
+  header nav ul li:first-child {
+    top: .4em;
+    padding-top: 5px;
+  }
+  header nav ul li {
+    font-size: 13px;
+  }
+  header nav ul.slideDown {
+    height: 13.5em;
+  }
 }
-
+/*
 @media (max-width: 528px) {
   .bioDiv {
     line-height: 1.1 !important;
@@ -571,11 +616,11 @@ and (-webkit-device-pixel-ratio: 2) {
 } */
 
 /* google pixel */
-/* @media screen 
+@media screen 
   and (min-width: 411px) 
   and (max-width: 823px)
   and (-webkit-min-device-pixel-ratio: 2.6) {
-    body {
+    /* body {
       line-height: 1.2;
     }
     .container {
@@ -611,28 +656,57 @@ and (-webkit-device-pixel-ratio: 2) {
     footer {
       padding: 10px 0;
       width: 100%;
-    }
-    header nav ul li {
-      font-size: 13px;
+    } */
+    header .logo {
+      margin-left: -12px;
     }
     header nav ul li:first-child {
-      top: .7em;
-      padding-top: 5px;
+      top: .4em;
+      padding-top: 3px;
+      right: .6em;
+    }
+    /* header nav ul li {
+      font-size: 13px;
     }
     header nav ul.slideDown {
       height: 10em;
     }
     header {
       padding-top: 20px;
-    }
-  } */
+    } */
+  } 
 
 /* iphone 6/7/8 plus */
-/* @media screen 
+@media screen 
 and (min-width : 414px) 
 and (max-width : 736px)
 and (-webkit-min-device-pixel-ratio: 3) {
-  .amyBio {
+  header .logo {
+    margin-left: -12px;
+  }
+  header nav ul li:first-child {
+    top: .4em;
+    padding-top: 3px;
+    right: .6em;
+  }
+  /* footer {
+    margin-top: none;
+  }
+.col-sm-5 {
+    border: none;
+    height: 87vh;
+}
+h1 {
+    margin-top: 0;
+}
+.name, .maryName {
+    padding-top: 10px;
+    font-size: 20px;
+}
+.mName {
+   */
+}
+  /* .amyBio {
     font-size: 15px !important;
     line-height: 1.2 !important;
     margin-right: 8vw !important;
@@ -668,23 +742,23 @@ and (-webkit-min-device-pixel-ratio: 3) {
   .bioDiv {
     width: 220% !important;
     margin-left: -225px !important;
-  }
-} */
+  } */
+} 
 /*iphone X*/
 /* @media screen 
     and (min-width : 375px) 
     and (min-height : 812px) 
     and (-webkit-device-pixel-ratio : 3)
-    {
-      .grid {
+    { */
+      /* .grid {
         height: 80vh !important;
         margin-right: 0 !important;
-      }
+      } */
 
-      body, footer {
-        padding-right: 0 !important;
-      }
-
+      /* footer {
+        border-top: none;
+      } */
+/* 
       footer {
         padding: 10px 0 !important;
         margin-bottom: 0 !important;
@@ -743,15 +817,15 @@ and (-webkit-min-device-pixel-ratio: 3) {
       }
       header nav ul.slideDown {
         height: 10em !important;
-      }
-} */
+      } */
+/* } */
 
 /* iphone 6/7/8 */
-/* @media screen 
+ /* @media screen 
   and (min-width: 375px) 
   and (max-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-  body {
+  and (-webkit-min-device-pixel-ratio: 2) { */
+  /*body {
     line-height: 1.2;
   }
 
@@ -803,7 +877,8 @@ and (-webkit-min-device-pixel-ratio: 3) {
   header {
     padding-top: 20px;
   }
-}
+  */
+ /*
 
 @media (max-width: 667px) {
   footer {
@@ -976,8 +1051,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 }  */
 
 /* ipad pro */
-/* @media only screen and (min-width: 1024px) 
-and (max-width: 1366px) 
+/* @media only screen and (min-device-width: 1024px) 
+and (max-device-width: 1366px) 
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -1065,26 +1140,201 @@ header .logo {
 }
 } */
 
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .row {
-      height: 1024px;
-    }
+
+
+/* @media (max-width: 1024px) {
+  .row, .rowContainer {
+    height: 105vh;
+}
+.row {
+  overflow: hidden;
+} */
+/* footer {
+  max-height: 30px;
+  bottom: 0;
+} */
+
+@media (max-width: 875px) {
+  .col-sm-5 {
+    /* height: 106vh; */
+    border-bottom: none;
+}
+@media (max-width: 791px) {
+  .col-sm-5 {
+    /* height: 108vh; */
+  }
+}
+@media (max-width: 768px) {
+  .col-sm-5 {
+    border: none;
+    background-color: white;
+    /* height: 85vh; */
+  }
+  body {
+    background: #DBDDDE;
+  }
+  .row {
+    /* height: 170vh; */
+    margin: 0 20px;
+    overflow: hidden;
+  }
+  footer {
+    border-top: 10px solid #65808e;
+    margin-top: 10px;
+  }
+  .col-sm-5 p {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 768) {
+  .col-sm-5 {
+    border: 1px solid black;
+  }
+}
+/* @media (max-width: 680px) {
+  .row {
+    height: 190%;
+    overflow: hidden;
+  }
+} */
+
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
     .col-sm-5 {
-      width: 45%;
-      height: 800px;
+      height: 85h;
     }
-    .amyName {
-      margin-left: 5vw;
-      height: 800px;
+  
+  .amyName {
+      margin-left: 8.34%;
+      margin-right: 0;
+  }
+  
+  .col-sm-5 p {
+      font-size: 25px;
+      margin: 20px;
+  }
+  
+  .name, .maryName {
+      font-size: 27px;
+    }
+  
+  footer {
+      padding: 15px 0;
+  }
+  
+  footer h1 {
       font-size: 20px;
+  } 
+  } */
+  /* Portrait and Landscape */
+/* @media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .col-sm-5 p {
+    color: red;
+    font-size: 20px;
+  }
+  footer {
+    background-color: orange;
+  }
+  footer h1 {
+    font-size: 30px;
+  }
+} */
+
+/* Portrait */
+/* @media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .col-sm-5 p {
+    color: red;
+    font-size: 20px;
+  }
+  footer {
+    background-color: orange;
+  }
+  footer h1 {
+    font-size: 30px;
+  }
+} */
+
+/* Landscape */
+
+@media (min-width: 300px) {
+  footer h1 {
+    font-size: 14px;
+  }
+}
+  @media (min-width: 823px) {
+    .col-sm-5 {
+      /* height: 105vh; */
     }
+    .row, .rowContainer {
+      /* height: 105vh;
+  } */
+  .row {
+    overflow: hidden;
+  }
+  }
+
+  @media (min-width: 1024px) {
+    .col-sm-5 {
+      border-top: .5px solid black;
+      /* height: 105vh; */
+    }
+    body {
+      /* height: 100vh; */
+    }
+
+    /* .mName {
+      height: 110vh;
+    } */
+    .row, .rowContainer {
+      /* height: 105vh; */
+  }
+  .row {
+    overflow: hidden;
+  }
+  }
+
+  @media (min-width: 1367px) {
     .col-sm-5 p {
       font-size: 20px;
+      margin: 5px 15px;
     }
-    .name, .maryName{
-      font-size: 20px;
+
+    .name, .maryName {
+      font-size: 22px;
     }
+    /* .row, .rowContainer {
+      height: 105vh;
+    }
+      .col-sm-5 {
+        height: 105vh;
+      } */
   }
+  
+  @media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .col-sm-5 {
+    height: 81vh;
+    margin-top: 5vh;
+  }
+
+.col-sm-5 p {
+    font-size: 25px;
+    margin: 20px;
+    line-height: 1.2;
+}
+
+.name, .maryName {
+    font-size: 27px;
+  }
+}
