@@ -5,10 +5,3 @@ jQuery(document).ready(function() {
       .toggleClass("slideDown");
   });
 });
-
-// .row {
-//   height: 150vh;
-// }
-// footer {
-//   border-top: 10px solid #65808e;
-// }
